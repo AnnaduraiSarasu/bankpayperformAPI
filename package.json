@@ -1,0 +1,21 @@
+{
+  "name": "payperformbankapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel app.js -d dist",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "Annadurai",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10"
+  },
+  "dependencies": {
+    "@babel/node": "^7.12.10",
+    "nodemon": "^2.0.6"
+  }
+}
